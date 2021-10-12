@@ -1,0 +1,14 @@
+/* tag html */
+h2, h1, h6 {
+  color: blue;
+}
+
+/* id */
+#my-title {
+  font-size: 2rem;
+}
+
+/* classe */
+.bold {
+  font-weight: bold;
+}
