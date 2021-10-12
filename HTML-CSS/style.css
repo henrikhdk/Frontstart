@@ -1,14 +1,17 @@
-/* tag html */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;700;900&display=swap');
+
+body {
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
 h2, h1, h6 {
   color: blue;
 }
 
-/* id */
 #my-title {
   font-size: 2rem;
 }
 
-/* classe */
 .bold {
-  font-weight: bold;
+  font-weight: 900;
 }
