@@ -6,6 +6,7 @@ body {
 
 .container {
   background: rgba(66, 43, 109, 0.89);
+  color: #fff;
   /* width: 100%; */
   height: 200px;
 
