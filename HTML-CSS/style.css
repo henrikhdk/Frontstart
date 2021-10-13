@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;700;900&display=swap');
 
-/* em vs rem */
-
 body {
   font-family: 'Noto Sans Display', sans-serif;
-  font-size: 14px;
+  position: relative;
 }
 
-/* em --> relativo a classe pai */
-/* Acabamos não usando muito */
-div {
-  font-size: 1.2em;
-  /* Primeira DIV -> 14 * 1.2 = 16,8px */
-  /* Segunda DIV -> 16 * 1.2 = 20,16px */
+p {
+  border: 1px solid red;
+  /* width: 200px; */
+  height: 200px;
+  padding: 50px;
 }
 
-/* rem --> relativo ao body */
+span {
+  border: 1px solid blue;
+  width: 200px;
+  padding: 50px;
+  margin: 50px;
+}
+
+a {
+  border: 1px solid blue;
+  
+}
+
 div {
-  font-size: 1.2rem;
+  border: 1px solid blue;
 }
