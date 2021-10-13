@@ -15,18 +15,6 @@ div {
   position: absolute;
 }
 
-#um {
-  z-index: 100;
-}
-
-#dois {
-  z-index: 20;
-}
-
-#tres {
-  z-index: 30;
-}
-
 .container {
   background: pink;
   width: 100%;
