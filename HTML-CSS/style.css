@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;700;900&display=swap');
-
 body {
   font-family: 'Noto Sans Display', sans-serif;
-  position: relative;
+  margin: 0;
 }
 
-div {
-  background: red;
-  border: 1px solid blue;
-  /* position: static; */
-  width: 150px;
-  height: 150px;
-  box-sizing: border-box;
+.input-container {
+  background: purple;
+  position: relative;
+  margin: 100px;
+}
+
+input {
+  height: 45px;
+  width: 300px;
+  padding-left: 45px;
+}
+
+svg {
   position: absolute;
-}
-
-.container {
-  background: pink;
-  width: 100%;
-  height: 500px;
-  position: relative;
+  top: calc(50% - 12px);
+  left: 10px;
 }
