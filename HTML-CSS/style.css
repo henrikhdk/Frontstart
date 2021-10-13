@@ -4,14 +4,14 @@ body {
   font-family: 'Noto Sans Display', sans-serif;
 }
 
-h2, h1, h6 {
-  color: blue;
-}
+.container {
+  background: rgba(66, 43, 109, 0.89);
+  /* width: 100%; */
+  height: 200px;
 
-#my-title {
-  font-size: 2rem;
-}
+  /* max-width: 800px; */
+  min-width: 500px;
 
-.bold {
-  font-weight: 900;
+  min-height: 400px;
+  margin: auto;
 }
