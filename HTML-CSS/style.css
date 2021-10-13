@@ -2,17 +2,20 @@
 
 body {
   font-family: 'Noto Sans Display', sans-serif;
+  margin: 100px;
 }
 
-.container {
-  background: rgba(66, 43, 109, 0.89);
-  color: #fff;
-  /* width: 100%; */
-  height: 200px;
+span {
+  border: 3px solid rgb(48, 43, 43);
+  border-radius: 8px 8px 0px;
+  padding: 5px;
+}
 
-  /* max-width: 800px; */
-  min-width: 500px;
+.circle {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  margin: 40px;
 
-  min-height: 400px;
-  margin: auto;
+  border-radius: 50%;
 }
